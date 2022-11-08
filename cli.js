@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+//dependencies 
+
 import minimist from 'minimist';
 import moment from 'moment-timezone';
 import fetch from 'node-fetch';
@@ -38,6 +40,7 @@ if (args.j) {
 	process.exit(0);
 } 
 
+console.log(data.precipitation);
 
 const days = args.d 
 
